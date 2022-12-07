@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_M1.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+<title>Germicheck</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="templates/home&sons/nekmit/layout/styles/layout.css" rel="stylesheet" />
+<link href="templates/home&sons/nekmit/layout/styles/framework.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article>
+        
+        <img src="images/germichecklogo2.png"><h3 class="heading">Germicheck </h3>
+          
+            <p style="font-size:large">We clean your place better than thieves. 😎</p>
+      <footer>
+
+           <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+<%--       <ul class="nospace inline pushright">
+          <li><a class="btn" ID="Button1" href="#" OnClick="btn_redir_reg_Click">Sign Up</a></li>
+          <li><a class="btn inverse" ID="Button2" href="#" OnClick="btn_redir_login_Click">Login</a></li> 
+        </ul>--%>
+      </footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+   
+<!-- JAVASCRIPTS -->
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.min.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.backtotop.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>

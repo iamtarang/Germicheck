@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_M2.master.cs" Inherits="MasterPage_M2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+<title>Germicheck</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="templates/home&sons/nekmit/layout/styles/layout.css" rel="stylesheet" />
+<link href="templates/home&sons/nekmit/layout/styles/framework.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay padtop" style="background-image:url('images/demo/backgrounds/01.png');"> 
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="Homepage.aspx">Germicheck</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="Homepage.aspx">Home</a></li>
+        <li><a href="Gallery.aspx">Gallery</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Account Info</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+    </div>
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+
+<!-- JAVASCRIPTS -->
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.min.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.backtotop.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.mobilemenu.js"></script>
+    <%--<form id="form2" runat="server">
+    <div>--%>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

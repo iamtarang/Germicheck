@@ -1,0 +1,244 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage_home.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Germicheck</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="templates/home&sons/nekmit/layout/styles/layout.css" rel="stylesheet" />    
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded overlay padtop" style="background-image:url('images/demo/backgrounds/01.png');"> 
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <header id="header" class="hoc clear">
+    <div id="logo" class="fl_left"> 
+      <!-- ################################################################################################ -->
+      <h1><a href="index.html">Germicheck</a></h1>
+      <!-- ################################################################################################ -->
+    </div>
+    <nav id="mainav" class="fl_right"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="Homepage.aspx">Home</a></li>
+        <li><a href="Gallery.aspx">Gallery</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Account Info</a></li>
+      </ul>
+      <!-- ################################################################################################ -->
+    </nav>
+  </header>
+    </div>
+
+
+        <!-- ################################################################################################ -->
+
+
+
+    <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+        <h6 class="heading">We clean your place better than thieves. 😎</h6>
+      <p class="nospace font-xs">The Ultimate Sanitization Service you didn't knew existed.</p>
+    </div>
+    <article id="points" class="group">
+      <div class="two_third first">
+          
+            <!--####################################-->
+   <form id="form2" runat="server">                
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+   
+            <!--####################################-->
+             
+        <h5 class="heading">
+                  </h5>
+                  <h5 class="heading">What We Do.</h5>
+        <p>We are a prefessional sanitization company who expertise in sanitizing places ranging from a small cabin to your house to large scale malls, offices and even schools.</p>
+        <p>Our range of fragnances and super-skilled staff will make your place 10x more clean and refreshing.</p>
+      
+          <br />
+          <br />
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+     </form>
+      </div>
+      <div class="one_third last"><img src="images/pexels-anna-shvets-521912.jpg" class="imgover" /></div>
+    </article>
+      
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+
+
+        <!-- ################################################################################################ -->
+
+
+
+    <div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <section id="services">
+      <div class="sectiontitle">
+        <!--p class="nospace font-xs">Mauris tempor aliquam venenatis</p -->
+        <h4 class="heading">Why Us but?</h4>
+      </div>
+      <ul class="nospace group grid-3">
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-spray-can"></i></a>
+            <h6 class="heading">High Quality Sanitizer</h6>
+            <p>We use highest quality sanitizers and a range of fragnances for you to choose from.</p>
+              <br />
+            <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-user-secret"></i></a>
+            <h6 class="heading">Super-Skilled Staff</h6>
+            <p>We've hired profesionally trained people who know their way around sanitization of smaller places to the largest of premises.</p>
+            <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-couch"></i></a>
+            <h6 class="heading">Furniture safe</h6>
+            <p>The sanitizer we use is absolutely safe for surfaces like Wood, Cloth and even Suede.</p>
+              <br />
+            <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-crow"></i></a>
+            <h6 class="heading">Animal Friendly</h6>
+            <p>Your pets need not worry! Our chemicals are animal friendly and do not cause any type of allergies of irritation to your little ones!</p>
+            <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-dolly-flatbed"></i></a>
+            <h6 class="heading">Fast Service Guaranteed</h6>
+            <p>We ought to deliver our service on time and finish with our work before you finish your cup of tea. <br />
+                [We're assuming it's a big cup.]</p>
+            <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+        <li class="one_third">
+          <article><a href="#"><i class="fas fa-road"></i></a>
+            <h6 class="heading">In 3 cities and expanding</h6>
+            <p>We have our branches and services available in Ahemdabad, Surat and Vadodara. Soon in your city too!</p>
+            <br />
+              <footer><a href="#">More Details &raquo;</a></footer>
+          </article>
+        </li>
+      </ul>
+    </section>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+    <div class="wrapper row2">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <!--p class="nospace font-xs">Odio duis ut est quis nisl consequat</ p -->
+      <h6 class="heading">Our Three Founders</h6>
+    </div>
+    <ul id="latest" class="nospace group sd-third">
+      <li class="one_third first">
+        <article>
+          <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+            <figcaption>
+              <ul class="nospace meta clear">
+                <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+                <li>
+                  <time datetime="2045-04-06T08:15+00:00"></time>
+                </li>
+              </ul>
+              <h6 class="heading"><a href="#">Arijeet Rege</a></h6>
+            </figcaption>
+          </figure>
+          <p>BCA Student</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+            <figcaption>
+              <ul class="nospace meta clear">
+                <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+                <li>
+                  <time datetime="2045-04-05T08:15+00:00"></time>
+                </li>
+              </ul>
+              <h6 class="heading"><a href="#">Mrunmayi Wadje</a></h6>
+            </figcaption>
+          </figure>
+          <p>BCA Student</p>
+        </article>
+      </li>
+      <li class="one_third">
+        <article>
+          <figure><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a>
+            <figcaption>
+              <ul class="nospace meta clear">
+                <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+                <li>
+                  <time datetime="2045-04-04T08:15+00:00"></time>
+                </li>
+              </ul>
+              <h6 class="heading"><a href="#">Tarang Lakhmapurkar</a></h6>
+            </figcaption>
+          </figure>
+          <p>BCA Student.</p>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+    <div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">www.germicheck.com</a></p>
+    <p class="fl_right">Project By Arijeet, Mrunmayi and @dhat.tarang</p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.min.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.backtotop.js"></script>
+    <script src="templates/home&sons/nekmit/layout/scripts/jquery.mobilemenu.js"></script>
+
+   
+</body>
+</html>
